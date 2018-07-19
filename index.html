@@ -21,9 +21,6 @@ staticImage1.src = "https://www.google.com/images/branding/googlelogo/2x/googlel
 </head>
 
 <body>
-<a href="http://elmaaltshift.com/wp-content/uploads/2016/08/missingtype-elmaaltshift-1.jpg" onmouseover="image1.src=loadImage1.src;" onmouseout="image1.src=staticImage1.src;">
-<img name="image1" src="https://cdn.vox-cdn.com/thumbor/Pkmq1nm3skO0-j693JTMd7RL0Zk=/0x0:2012x1341/1200x800/filters:focal(0x0:2012x1341)/cdn.vox-cdn.com/uploads/chorus_image/image/47070706/google2.0.0.jpg" border=0></a>
-
 
     <ul class="nav">
       <li><a id="nav-button" href="#">Sign In</a></li>
@@ -32,7 +29,9 @@ staticImage1.src = "https://www.google.com/images/branding/googlelogo/2x/googlel
       <li><a href="#">Gmail</a></li>
     </ul>
     <div class="main-elements">
-      <img id="logo" src="assets/google-logo.png" alt="google image" />
+     <span onmouseover="image1.src=loadImage1.src;" onmouseout="image1.src=staticImage1.src;">
+<img name="image1" src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_160x56dp.png" border=0></span>
+
       <div class="search">
         <form>
           <input id="form" type="text" autofocus>
